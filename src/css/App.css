@@ -1,0 +1,79 @@
+body{
+    background-color:cornsilk;
+}
+#preGameDiv{
+    text-align: center;
+}
+#WordsUpload>button, #WordsUpload>form>input,#startButton, #menu>button,#game>button,#answer + input[type='submit'],#creditsButton{
+    background-color:tan;
+    border:none;
+    padding:1%;
+    margin:1%;
+    width:200px;
+    cursor: pointer;
+    border-radius:15px;
+}
+input[type='file']{
+    display:none;
+}
+#game{
+    text-align:center;
+    width:40%;
+    margin:auto
+}
+#answer{
+    padding:1.5%;
+    margin:1%;
+    width:66%;
+    border:solid tan 1px;
+    border-radius:15px;
+}
+.letter{
+    
+    display:inline-block;
+    padding:1%;
+    margin:1%;
+    height:20px;
+    width:20px;
+    border-radius:15px;
+    font: x-large;
+    border:solid black 2px;
+}
+.clickable{
+    cursor:pointer
+}
+.nonclickable{
+    background-color: black;
+}
+.GuessingFieldLetter{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    text-align:center;
+    border-bottom:solid red 2px;
+    padding:0.5%;
+    margin:0.5%;
+}
+.noUnderline{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    padding:0.5%;
+    margin:0.5%;
+}
+#grayout{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:3000px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#menu{
+    width:40%;
+    padding:2%;
+    text-align: center;
+    background-color:whitesmoke;
+    margin:auto;
+    margin-top:10px;
+}
